@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ben X Sports News</title>
+    <style>
+        /* General Page Styling */
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0073e6; /* Blue background */
+            color: white;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #004080;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        /* Unique Font styling */
+        h1 {
+            font-family: 'Trebuchet MS', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Menu */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #002244;
+            border-radius: 5px;
+        }
+
+        /* Main Content Section */
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Article cards */
+        .article {
+            background-color: white;
+            color: black;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .article:hover {
+            transform: translateY(-10px);
+        }
+
+        .article h2 {
+            font-family: 'Georgia', serif;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .article img {
+            display: block;
+            margin: 0 auto;
+            width: 288px;
+            height: 201px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #004080;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 1em;
+            color: #cccccc;
+            margin: 0;
+        }
+
+        footer a {
+            color: #cccccc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ben X Sports News</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> <!-- Home link returns to homepage -->
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bbc.com/sport/football&ved=2ahUKEwidrpT3sq6IAxUaSPEDHSi8Cg8QFnoECBoQAQ&usg=AOvVaw2s1y-3I-hW6G-t1gUpdBf7" target="_blank">Latest News</a>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.wheresthematch.com/live-streams/&ved=2ahUKEwiLyN_tsa6IAxWlRPEDHWaxGeMQFnoECBYQBQ&usg=AOvVaw0lqSjhqSf4n4mB3OGBpU_x" target="_blank">Teams</a>
+        <a href="tel:+0742634834">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <section class="article">
+            <h2>Breaking: Championship Finals This Weekend</h2>
+            <p>Stay tuned for the biggest event of the year! The top teams are ready to compete for the title.</p>
+        </section>
+
+        <section class="article">
+            <h2>Player of the Month: Mohammad Salah</h2>
+            <img src="/storage/emulated/0/Download/download.webp" alt="Player of the Month">
+            <p>Mo Salah has once again proven to be a top player this season with outstanding performances.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ben X Sports News. All Rights Reserved. | Contact us at: <a href="mailto:benedictgerald8@gmail.com">benedictgerald8@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+
+
